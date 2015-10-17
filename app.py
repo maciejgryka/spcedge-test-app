@@ -29,5 +29,11 @@ def test_numpy():
     # return '<pre>{0}</pre>'.format(test_output.getvalue())
 
 
+@app.route('/test-scipy')
+def test_numpy():
+    import scipy
+    return 'wow, it worked!'
+
+
 if __name__ == '__main__':
     app.run()
