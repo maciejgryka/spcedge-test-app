@@ -1,0 +1,7 @@
+build-essential
+gfortran
+libblas-dev
+liblapack-dev
+libssl-dev
+openssl
+libpq-dev
